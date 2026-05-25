@@ -7,7 +7,7 @@ namespace ExamsManagement
 {
     internal class Examination
     {
-        private string connectionString= "Server=localhost;Database=grp4_exam_db;Uid=root;Pwd=King2014;";
+        private string connectionString= "Server=localhost;Database=grp4_exam_db;Uid=root;Pwd=password;";
 
         public List<Mark> GetAllMarks()
         {
